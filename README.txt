@@ -9,7 +9,9 @@ FuncInFile (FiF) is a 18 line bashcript that shows you all files in which
 any or multiple of the functionnames provided as arguments show up. As well as
 which of the functionnames got used in that file.
 
-It uses the "find" command starting with the current directory so it will also
+To actually use it don"t forget to chmod.
+
+FiF uses the "find" command starting with the current directory so it will also
 search subdirectories. This might clutter your output.
 
 This was mainly written to make searching for unallowed functions in files for
